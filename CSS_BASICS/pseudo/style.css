@@ -1,0 +1,33 @@
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: tan;
+    padding: 100px;
+    color: tomato;
+
+}
+/* when we hover then specifications change or background color changes   */
+.box:hover
+{
+    background-color: yellowgreen;
+    font-size: larger;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+}
+
+/* if we click using mouse then width and height get changes */
+
+.box:active{
+    height: 400px;
+    width: 400px;
+    font-size: 56pt;
+}
+
+/* pseudo selector for input element */
+
+input:focus{
+    font-size: 30px;
+    width: 200px;
+}
