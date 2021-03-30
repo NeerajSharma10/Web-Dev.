@@ -1,0 +1,21 @@
+#para1
+{
+    font-size: 34px;
+}
+
+#para2
+{
+    /* sams seirff */
+    font-family: monospace;
+}
+
+#para3
+{
+    font-style: italic;
+    font-weight: bolder;
+}
+#para4
+{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
