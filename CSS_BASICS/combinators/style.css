@@ -1,0 +1,28 @@
+
+/* this is adjacent sibling combinator what it does is it select the 
+next immediate neighbour of h2 only  */
+
+h2 + p {
+    font-weight: bold;
+}
+/* it is general sibling combiantor and it select
+all the next neigbours which are p tag and it works only top to down  */
+h2 ~ p 
+{
+    color: red;
+}
+
+/* child combinator  what it does is it select the only child 
+of section not the grand child only child  */
+
+section > p{
+    font-family: monospace;
+}
+
+/* descendent combinator  what it does is it select the 
+descendent of the section which is p tag whether it is 
+child or grand child or grand grand child*/
+section p 
+{
+    background-color: slategrey;
+}
