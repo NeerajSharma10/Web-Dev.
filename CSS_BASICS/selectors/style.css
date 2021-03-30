@@ -1,0 +1,38 @@
+
+* {
+    font-style: italic;
+}
+
+div {
+    font-size: larger;
+    color: royalblue;
+}
+
+p{
+    font-size: larger;
+    color: red;
+}
+
+.hell{
+    font-size: 34pt;
+}
+
+.well
+{
+    font-weight: bold;
+}
+
+#wap
+{
+    background-color: salmon;
+}
+
+#pap
+{
+    background-color: slategrey;
+}
+
+input[disabled]
+{
+    height: 200px;
+}
