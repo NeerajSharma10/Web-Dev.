@@ -1,0 +1,19 @@
+.box
+{
+    margin: 20px;
+    padding: 10px;
+    border: dashed black 3px;
+}
+
+#div1
+{
+    background-color: dimgray;
+}
+#div2
+{
+    background-color: floralwhite;
+}
+#div3
+{
+    background-color: gainsboro;
+}
