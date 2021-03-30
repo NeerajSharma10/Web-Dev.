@@ -1,0 +1,34 @@
+/* Here Precedence order is :
+
+inline css > id > class > element > *
+*  -> applies to all 
+
+div,p -> applies to that type of element 
+.abc -> applies to class abc 
+#xyz -> applies to id xyz
+*/
+
+
+* {
+    background-color: cyan;
+}
+
+#id1
+{
+    background-color: darkgreen;
+}
+
+.cl1
+{
+    background-color: darkgoldenrod;
+}
+
+.cl1{
+    background-color: deeppink;
+}
+div
+{
+    background-color: darkslateblue;
+}
+
+
